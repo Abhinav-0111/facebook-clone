@@ -1,0 +1,17 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
+import ContextState from "./Context/ContextState.jsx";
+import reducer, { initialState } from "./reducer.js";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <React.StrictMode>
+        <ContextState
+            initialState={initialState}
+            reducer={reducer}
+        >
+            <App />
+        </ContextState>
+    </React.StrictMode>
+);

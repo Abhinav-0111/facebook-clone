@@ -1,0 +1,27 @@
+.sidebarrow {
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sidebarrow .MuiAvatar-img {
+    width: 82%;
+    height: 82%;
+}
+
+.sidebarrow:hover {
+    background-color: rgb(211 211 211/31%);
+    cursor: pointer;
+}
+.sidebarrow p {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.sidebar {
+    margin-top: 20px;
+    flex: 0.3;
+    position: sticky;
+    top: 0;
+}

@@ -1,0 +1,9 @@
+.feed {
+    flex: 1;
+    padding: 30px 160px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: 15px;
+    /* background-color: red; */
+}

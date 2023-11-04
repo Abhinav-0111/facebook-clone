@@ -1,0 +1,53 @@
+.rightsidebar {
+    margin-top: 20px;
+    height: 100vh;
+    margin-right: 10px;
+    position: sticky;
+    /* background-color: brown; */
+    top: 0;
+    flex: 0.33;
+}
+
+.sidebar_left h4 {
+    font-size: 19px;
+}
+
+.sidebar_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+
+.sidebar_options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar_options h4 {
+    margin-left: 10px;
+    font-size: 16 px;
+}
+
+.ml_10 {
+    margin-left: 10px;
+}
+
+.ml_10 p {
+    font-size: 13px;
+    color: gray;
+    font-weight: 600;
+}
+
+.ml_10 svg {
+    font-size: 16px;
+    color: gray;
+    margin-right: 10px;
+}
+
+.sidebar_right svg {
+    margin-left: 20px;
+}
